@@ -49,14 +49,12 @@ int main(int argc, char* argv[]) {
 	struct Point p;
 	struct Student s;
 	s.roll = 10;
-	//s.name = "John";
-	strcpy_s(s.name, "John");
-	//s.address = "1234 Albert Pl.";
+	strcpy_s(s.name, "John Doe");
 
 	printf("%d %d\n", r.length, r.breadth);
 	printf("Area of Rectangle is %d\n", r.length * r.breadth);
 
-	printf("name = %s\n", name);
+	printf("name = %s\n", s.name);
 
 	return 0;
 }
